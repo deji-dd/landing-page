@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.main-div {
+  width: 90%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-div {
+  margin-top: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon-div {
+  width: 100%;
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.reg-btn {
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  width: 200px;
+  height: 55px;
+}
+
+.reg-btn:hover {
+  background-color: hsl(300, 69%, 71%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-row {
+  width: 150px;
+  margin-left: auto;
+  margin-right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instagram,
+.twitter,
+.facebook {
+  border: white solid 1px;
+  background-color: transparent;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.instagram:hover,
+.twitter:hover,
+.facebook:hover {
+  border: hsl(300, 69%, 71%) solid 1px;
+  color: hsl(300, 69%, 71%);
 }
